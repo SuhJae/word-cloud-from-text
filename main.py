@@ -25,7 +25,7 @@ mask = np.array(Image.open('mask.png'))
 print(f'{BC.OKGREEN}✓{BC.RESET} Reading mask.png')
 
 # create the wordcloud object
-wordcloud = WordCloud(colormap='binary', background_color="white", max_words=10000, collocations=False, mask=mask, font_path="times new roman.ttf").generate(text)
+wordcloud = WordCloud(colormap='cool', background_color="black", max_words=10000, collocations=False, mask=mask, font_path="times new roman.ttf").generate(text)
 
 print(f'{BC.OKGREEN}✓{BC.RESET} Generating wordcloud')
 
