@@ -1,3 +1,6 @@
+### 📜 Archived Repository
+This repository stands as an archived testament to my growth and evolving skills in software development.
+
 # word-cloud-from-text
 ### Simple script to generate word cloud from text file
 
